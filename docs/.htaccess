@@ -1,0 +1,18 @@
+# deprecated for .html redirects for use with Github Pages
+
+Options All +Includes +MultiViews
+IndexOptions NameWidth=*
+IndexOptions HTMLTable
+IndexOptions SuppressLastModified SuppressSize SuppressDescription
+IndexOptions FoldersFirst
+
+Redirect        301     /get      https://itunes.apple.com/us/app/permanote/id1186983403?mt=8&uo=4&at=10l74L
+Redirect		301		/1writer	https://itunes.apple.com/us/app/1writer/id680469088?mt=8&uo=4&at=10l74L
+
+
+
+<Files ~ "^(\.DS_Store|convert.pl)">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>

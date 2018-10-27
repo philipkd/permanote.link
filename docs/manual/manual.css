@@ -1,0 +1,67 @@
+#contents {
+  padding-bottom: 1000px;
+}
+
+#title {
+	font-size: 2em;
+    font-weight: bold;
+	line-height: 140%;
+}
+
+/*------------------------------------------------------------------------------
+     Global Documentation Styles
+------------------------------------------------------------------------------*/
+
+html {
+  height:100%;
+}
+
+body {
+  font: 17px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 140%;
+  background-color: #fff;
+  color: #393939;
+  height: 100%;
+  margin: 20px;
+}
+
+p {
+  margin: 1em 0;
+}
+
+h1 {
+  font-size: 1.8em;
+  padding: .5em 0;
+  margin: 2em 0 .5em;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 1.4em;
+  border-bottom: 1px solid #cccccc;
+  color: #333;
+  padding: .5em 0;
+  margin: .5em 0 1em;
+}
+
+
+h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin: 1.5em 0 .5em;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration:underline;
+}
+
+
+a img {
+  border: 0px;
+}

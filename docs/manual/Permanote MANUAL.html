@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">                                                                  
+	<head>                                                                  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />     
+    <script type="text/javascript" src="jquery.js"></script>          
+ 		<script type="text/javascript" src="showdown.js"></script>
+		<script type="text/javascript" src="manualify.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="manual.css" />
+		
+ </script>                                                               
+<title>Permanote Manual</title>
+ </head>                                                                 
+ <body>
+<div id="title">Permanote Manual</div>
+http://permanote.link/manual/
+<p/>
+
+<h2>Table of Contents</h2>
+
+<div id="toc"></div>
+	
+<div id="contents">
+
+# Dealing with Issues
+
+If there are bugs, please email [support@permanote.link](mailto:support@permanote.link). There are a few general workarounds, if you're stuck:
+
+## Permanote Not Working
+
+**Force Close Permanote:**
+
+  * Double-tap the Home button
+  * Slide Permanote up and away
+  * Re-open Permanote
+
+**Run Rescue Operations:**
+
+* Visit [permanote://rescue](permanote://rescue) from Safari for iOS
+
+**Send Crash Reports:**
+
+* If Permanote crashes, it should open up with a message where you can send the crash report.
+* Alternatively, you can go to ![Settings](settingsBtn.png)
+* Scroll down and tap **Contact**
+* Tap **Send Crash Report**
+
+
+## Dropbox Not Working
+  
+**Disconnect and then Re-connect into Dropbox:**
+
+  * Go to ![Settings](settingsBtn.png)
+  * Tap "Disconnect Dropbox"
+  * Tap "Connect Dropbox"
+    
+## Permanote Performing Slowly
+
+**Turn Off Auto-sync:**
+
+*Syncing only happens when you open or close a note, but you can try this*
+
+  * Go to ![Settings](settingsBtn.png)
+  * Scroll down and tap **More Options**
+  * Tap the switch to turn off auto-sync
+  
+**Clear Space:**
+
+*One user reported a slow-down while typing every 5 seconds, this was due to his iPad being full*
+
+  * Delete any apps or media you don't need
+  * Re-open Permanote
+
+**Re-install Permanote:**
+
+*This is a last-resort, but often fixes everything*
+
+
+
+## Keyboard Obscures Typing
+
+Most likely your keyboard is undocked. To re-dock it, tap and hold onto the button at the bottom-right of the keyboard and slide it to the bottom.
+
+# Using the Editor
+
+## How to Search
+
+### Search for a Note
+
+Go to ![Notes](openBtn.png) then tap **Search**
+
+### How to Search & Replace
+
+This is currently not supported yet.
+
+## Speeding up Your Editing
+
+Permanote is one of the fastest ways to input on iOS. There are two ways that Permanote can help.
+
+### Use Keyboard Shortcuts
+
+The keyboard shortcut bar provides an extra row of keys above your keyboard with frequently used characters and cursors to move left and right one character at a time. If the keyboard shortcut bar does not appear, go to ![Settings](settingsBtn.png) and tap the switch for *Keyboard Shortcuts*.
+
+### Select a Line
+
+The shortcut titled "line" is handy for selecting the current line. Scroll the shortcut bar to the right to see this one.
+
+### Insert a Line at the Top
+
+The shortcut titled "^\n" scrolls to the top of the current note and creates a newline.
+
+### Insert a Timestamp
+
+Tap on "date" or "time" on the shortcut bar to insert one or the other.
+
+### Customize Keyboard Shortcuts
+
+If you use phrases and words repeatedly, use a shortcut to insert that text with one tap. So if you have a signature that you always insert at the end of your letters, create a shortcut for it. To do this, enable the *Keyboard Shortcuts* bar, then tap **Customize Shortcuts,** then **Add Shortcuts**. Type in your signature in the contents box, and since it's long, you probably want to give an alias, like "sig".
+
+Now when you edit text, you'll see "sig" in a special toolbar above. Tap it to insert your signature.
+
+There are also built-in shortcuts which are preceded with the $-sign. These can really speed up your workflow. Here's a reference sheet, but the best thing is to go to ![Settings](settingsBtn.png), **Customize Shortcuts**, and scroll down to **Reference Macros**, then tap the **+** button to add a shortcut on your keyboard shortcut bar.
+
+To re-arrange shortcuts, tap the **Reorder** button in the upper-right, and tap-and-drag the lined handles on the right.
+
+**Special Insertion Shortcuts**
+
+* $dfmt lets you add a custom time stamp. I recommend adding it, and then editing out what you don't need. 
+* $paste will put whatever text was in the clipboard into the doc
+* $tab(n) will tab the text n-spaces
+* $untab will backspace any tabs
+* $sel will be substituted for the current selection (and leave the inserted text selected).
+
+**Cursor Shortcuts**
+
+* $bottom moves the cursor to the bottom of the note
+* $cursor will put the cursor at its location after the macro has been inserted
+* $down moves the cursor down a line
+* $left moves the cursor to the left
+* $line selects the current line
+* $lline moves the cursor to the start of the line
+* $lword moves the cursor one word to the left
+* $right moves the cursor to the right
+* $rline moves the cursor to the end of the line
+* $rword moves the cursor one word to the right
+* $select selects the current word and keeps your selection in-tact when you move the arrow keys
+* $top moves the cursor to the top of the note
+* $up moves the cursor up a line
+* $del deletes the next character (as opposed to backspace)
+
+**Other Shortcuts**
+
+* $copy copies the selected text
+* $cut cuts the selected text
+
+**Utility Shortcuts**
+
+* $separator divides your shortcuts up into multiple rows that you can scroll through
+* $undo undoes
+* $redo redoes
+
+**Backup or Share Shortcuts**
+
+Scroll to the bottom of the shortcut list and tap *Import* or *Export* to backup your shortcuts to Dropbox.
+
+### Chain Shortcuts
+
+You can chain shortcuts together. For example, to create a new entry at the top of your note, use $top$date\n\n\n$up (press enter, instead of typing \n). All of the shortcuts above except the utility ones, can be chained together.
+
+### Use TextExpander
+
+TextExpander is a separate app that also lets you automatically insert text. When you type an abbreviation like "sig" it automatically expands it with your preset text. Go to ![Settings](settingsBtn.png), scroll down and tap **More Options**, turn on **TextExpander**.  Then tap **Get App**. TextExpander works with all iOS apps, not just Permanote.
+
+### Dvorak Layout
+
+Apple has built-in Dvorak support for Bluetooth Keyboards. Tap Home, then go to Settings > General > Keyboards > English > Hardware Keyboard Layout.
+
+## Word, Character, Line Counts
+
+### Get Stats Manually
+
+Tap and hold your finger anywhere in the editor, and you'll see a line number next to what is usually **Copy** and **Paste.** Tap and hold to select some text, and another pop-up will show you the word count. Tap that word count to see a character count instead.
+
+### Get Stats Automatically
+
+  * Go to ![Settings](settingsBtn.png)
+  * Scroll down and tap **More Options**
+  * Scroll down to **Live Stats** and switch on Word, Character, or Line Counts
+
+## How to Close Your Note
+
+Tap the note's title in the top and choose **Close Note**
+
+## Sharing Your Writing
+
+Tap ![Note Actions](sendBtn.png) then **Share**
+
+## Formatting for Sharing
+
+### Using Basic PDF exporter
+
+Tap ![Note Actions](sendBtn.png), **Email**, then choose **Email as PDF**. This gives you some options to choose line-spacing, font-size, etc. A neat feature is that you can customize the first line's style, so you can give a nice looking title to your note. This is useful for making quick hand-outs.
+
+### Using MarkDown
+
+MarkDown is a powerful, yet simple formatting tool. It lets you have plain-text files that look formatted both in source and exported. For example, if you use a single asterisk, you can italicize text (\*this\* becomes *this*). Or you can use two asterisks to bold text (\*\*this\*\* becomes **this**). This whole manual was written with MarkDown, and what's great is that it's not cluttered with HTML syntax or rich-text formatting commands. Go to your desktop browser, and View > Source to see for yourself.
+
+Once you have inputted MarkDown symbols, tap ![Note Actions](sendBtn.png) then **Preview Markup**. Then choose MarkDown. You can also tap the action icon again in the bottom-right to Email it already formatted like that.
+
+A MarkDown reference sheet is available on the web.
+
+### Using HTML
+
+You can also use HTML tags to mark up your text. When you are finished, simply go to ![Note Actions](sendBtn.png), then **Preview markup**.
+
+### What's Base URL?
+
+Base URL is like the HTML base tag. It specifies the default URL for all links and images on the page. So if in your markup you refer to *title.jpg* but have a Base URL of *http: //google.com/* the full image URL will become *http: //google.com/title.jpg*
+
+## How to Print
+
+### Using AirPlay Printers
+
+There are a handful of AirPlay enabled printers, which enable printing directly from Permanote. Search the web for "AirPlay printers" to find out which ones are available. To print, tap ![Note Actions](sendBtn.png) then **Print**.
+
+### Using the PDF Export to Print
+
+Tap ![Note Actions](sendBtn.png), **Email**, **Email as PDF** then email the PDF to yourself. Then go to a computer connected to a printer, open your email, and print the attached PDF.
+
+## Dealing with International Chars
+
+Notes created in Permanote will look fine when opened in most text editors, since they're saved in UTF-8. However, you may need to open a note with an international characterset, like Chinese or Japanese, in which case, you may need to go to ![Settings](settingsBtn.png), scroll down and tap **More Options**, then tap **Automatic Encoding** to change it.
+
+
+## Using an External Keyboard
+
+Permanote works really well in conjunction with Apple's Wireless Keyboard. I often use it to write out long pieces of text on Permanote
+
+If you see the virtual keyboard on the screen, while your wireless keyboard is active, you can hide the virtual keyboard by pressing the eject key on the wireless keyboard.
+
+### Shortcuts
+
+Many keyboard shortcuts that you are used to already work with the wireless keyboard.
+
+* Hold "control" or "command" and use the left and right arrow keys to move to the beginning or end of a line (as it appears on-screen)
+* Hold "control" or "command" and use the up and down arrow keys to move to the beginning or end of the note.
+* Hold "alt" and use the left and right arrow keys to move one word at a time.
+* Hold "alt" and use the up and down keys to move between lines (as they appear in your note).
+* Hold "shift" to select text while moving the cursor around
+* Control-X, Control-C, and Control-P provide Cut, Copy, and Paste
+* Control-Z undos the last operation
+
+# Managing Notes
+
+## Existing Dropbox Users
+
+1. Tap the ![Notes](openBtn.png) button
+2. Tap **Connect Dropbox**
+3. Enter your login information, You only need to do this once
+4. Browse to your notes
+
+## New Dropbox Users
+
+You can have your notes saved into the cloud by creating a free Dropbox account (which includes 5 GB free).
+
+1. Tap the ![Notes](openBtn.png) icon
+2. Tap the **Connect Dropbox**
+3. Tap **create account**
+4. Enter your account information
+
+Your Dropbox account will be created immediately, and you won't have to enter your login info again from this app. You should see two items in your new Dropbox account: a "Public" folder and a "Getting Started.pdf." The PDF is issued by Dropbox, not by Permanote, and explains how to use your Dropbox account. You can skip this for now.
+
+Now tap the **History** below. This will show you all the notes that you worked on before you connected Dropbox. Tap on the ![Folder Sync](fileManagerSync.png) button to sync everything to Dropbox.
+
+## How to Rename or Move a Note
+
+Tap the **Edit** button to rename/move a note. Or if you're in the editor, tap on the note's name at the top and choose **Rename** or **Save As.**
+
+## How to Tag a Note
+
+Open a note that is linked with Dropbox. Then at the top, there is a little arrow by the note's title name. Tap that and a pop-up will appear with options to **Add Tags**.
+
+## How to Delete a Note
+
+Swipe your finger on a note to see a **Remove** button. Otherwise, tap the **Edit** button and and tap the minus signs to the left.
+
+## How to Sync Multiple Notes
+
+Tap on the **Notes** or **History** button. Then tap the ![Folder Sync](fileManagerSync.png) icon. This will sync all the notes in that folder.
+
+If you want to cancel the status check, tap on the progress percentage indicator.
+
+## Common Questions
+
+### How Does Syncing Work?
+
+Auto-syncing happens at any point when user interaction begins or ends, usually when opening a note, or tapping the **Done** button when finished editing.
+
+During an auto-sync, Permanote checks for a newer version online, and downloads it if necessary. If there are changes to the note on your device, it uploads them. If there is a newer version online AND there are changes on your device, it will rename the note.
+
+If you accidentally overwrite a note on Dropbox, you can revert your changes by going to dropbox.com.
+
+You can turn off auto-syncing by going to ![Settings](settingsBtn.png), scroll down and tap **More Options**, then disable **Auto-Sync**.
+
+### Compatible Files Types
+
+Permanote can open any plain-text file. Rich-text files or files with multimedia, such as images, PDFs, or Word files, will, in most cases, open in a preview-only mode.
+
+## Why Only Dropbox?
+
+
+
+There is only one choice to store your writing in the cloud: Dropbox. Here's why:
+
+1. Being able to restore changes to files is a must-have for any cloud backup. Accidental overwrites or deletions are inevitable when you sync from multiple devices.
+2. Dropbox has a generous free plan: 2GB of free space, enough for half-a-million notes.
+3. Their service is reliable.
+4. The desktop app is polished.
+
+Here are providers I ruled out:
+
+1. **Box**: At the time, their desktop app wasn't that great at syncing files
+2. **Google Drive**: Text files get comingled with Google's proprietary document format, meaning you can't open Google Docs from Permanote, nor text files from Google Docs.
+3. **Apple iCloud**: No file revisions
+4. **Microsoft SkyDrive**: Version history is only for paying customers
+
+# Migrating Notes
+
+## ... to Dropbox
+
+After connecting Dropbox for the first time, if you already have a lot of notes, usually you can put all of them into Dropbox by tapping on **History** then tapping on ![Folder Sync](fileManagerSync.png).
+
+If you turned off **Auto-save New Notes**, some notes in **History** may not sync automatically. In which case, tap on the outlined lightning bolts next to each note to manually give each note a home in Dropbox.
+
+Once you are done, you can tap the trash icon on History to make room, now that all your notes are in Dropbox.
+
+## ... from Nebulous Notes
+
+See above for *Migrating to Dropbox* to put all your notes in Dropbox first. Then in Permanote, you should see all your notes after connecting to Dropbox.
+
+# Automating Your Editing
+
+Use [Launch Center Pro](http://appcubby.com/launch-center/) or something similar to create one-click shortcuts for various Permanote tasks:
+
+* **permanote://** - opens Permanote
+* **permanote://new** - creates a new note
+* **permanote://new?contents=some%20string** - creates a new note with specified contents
+* **permanote://path/to%20file.txt** opens a note. Note: file name is case-sensitive and special characters must be written with URL codes (see below)
+* **permanote://path/to%20file.txt?append=some%20string** - appends some text
+* **permanote://path/to%20file.txt?prepend=some%20string** - prepends some text
+
+**URL Codes**
+
+* %20 - space
+* %0A - new line
+
+# How to Contact
+
+* Follow [@permanote](http://twitter.com/permanote) on Twitter
+* Email: [help@permanote.link](mailto:help@permanote.link)
+
+</div>
+
+
+
+</body>                                                                 
+</html>
+
